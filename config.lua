@@ -4,10 +4,10 @@
 -- Discord: https://discord.com/invite/Xb9B4Ny
 
 lvim.plugins = {
-  { "lunarvim/colorschemes" },
---   { "voldikss/vim-floaterm" },
-  { "mfussenegger/nvim-jdtls" },
-  { "microsoft/java-debug" },
+    { "lunarvim/colorschemes" },
+    --   { "voldikss/vim-floaterm" },
+    { "mfussenegger/nvim-jdtls" },
+    { "microsoft/java-debug" },
 }
 
 -- vim.cmd [[colorscheme tokyonight]]
@@ -30,7 +30,7 @@ lvim.plugins = {
 -- general
 lvim.log.level = "warn"
 lvim.format_on_save = false
-lvim.colorscheme = "orbital"
+lvim.colorscheme = "alduin"
 vim.cmd("let g:sonokai_style = 'andromeda'")
 vim.cmd("let g:sonokai_enable_italic_comment = 1")
 vim.opt.shiftwidth = 4
